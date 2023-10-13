@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contaner {
+    padding: 0px 100px;
+}
+
+/* NAVBAR SECTION HERE */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-top: 6px;
+}
+
+.logoImg {
+    height: 50px;
+    width: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+span {
+    color: rgb(231, 131, 0);
+}
+
+.manu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.manu>li>a {
+    text-decoration: none;
+    color: rgb(26, 181, 243);
+    transition: .5s;
+}
+
+.manu>li>a:hover {
+    text-decoration: none;
+    color: rgb(231, 131, 0);
+}
+
+.searchInput {
+    padding: 5px 15px;
+    border: 2px solid rgb(26, 181, 243);
+    border-radius: 5px;
+    background: transparent;
+    color: rgb(26, 181, 243);
+}
+
+.searchInput::placeholder {
+    color: rgb(231, 131, 0);
+}
+
+.searchInput:focus {
+    outline: 0;
+}
+
+.btn {
+    padding: 5px 20px;
+    border: 2px solid rgb(26, 181, 243);
+    border-radius: 5px;
+    background: rgb(231, 131, 0);
+    color: black;
+    font-weight: bold;
+}
+
+/* NAVBAR SECTION CLOSE */
+
+/* DISPLAY SECTION HERE  */
+
+.display {
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+
+}
+
+.displayText {
+    width: 50%;
+}
+
+.displayText>h1 {
+    font-size: 55px;
+    color: rgb(26, 181, 243);
+}
+
+.displayText>p {
+    padding-bottom: 30px;
+}
+
+.displayImg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bg {
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(to bottom, rgb(26, 181, 243), rgb(158, 227, 254), rgb(26, 181, 243));
+    position: absolute;
+    border-radius: 100%;
+}
+
+.disImg {
+    height: 91vh;
+    position: absolute;
+}
+
+/* DISPLAY SECTION CLOSE  */
+
+/* LEARNING ABOUT SECTION HERE  */
+
+.learning-about {
+    background-color: rgb(26, 181, 243);
+}
+
+.learning-head {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.learning-contaner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.card {
+    padding: 20px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px rgb(231, 131, 0);
+    border-radius: 5px;
+    background-color: rgb(231, 131, 0);
+}
+
+.card-head {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.card-head>h1 {
+    font-size: 50px;
+}
+
+.card-head>h2 {
+    font-size: 30px;
+}
